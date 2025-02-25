@@ -1,0 +1,10 @@
+ 1 python -m venv venv 
+ 2 ctrl+shift+p say select interpreter kare-> yeh venv jo create kiya hai voh
+ 3 ./venv/Scripts/activate
+ 4 pip install fastapi uvicorn,motor,python-dotenv
+ 5 python -m pip install --upgrade pip
+ 6 uvicorn main:app --reload
+ 7 pip freeze > requirements.txt 
+   or witout version
+   pip freeze --local | ForEach-Object { ($_ -split '==')[0] } > requirements.txt
+
