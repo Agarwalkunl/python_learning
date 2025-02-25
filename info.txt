@@ -8,3 +8,9 @@
    or witout version
    pip freeze --local | ForEach-Object { ($_ -split '==')[0] } > requirements.txt
 
+
+   1 simple sturcture banakar project create tabhi deployement sahi hoga
+   2 github deploy
+   3 live deploy vercel and free domain 
+   4 in deploy project name and .env dale aur  settings say domain aur agar live server hai toh nameservers add kare
+
